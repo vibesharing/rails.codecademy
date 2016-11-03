@@ -23,6 +23,8 @@
         <img src="<%= m.image %>">
         <h3><%= m.title %></h3>
         <p><%= m.release_year %></p>
+        <p><%= m.plot %></p>
+          <%= link_to "Learn More", movie_path(m) %>
       </div>
     <% end %>
   </div>
